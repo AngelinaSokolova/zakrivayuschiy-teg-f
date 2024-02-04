@@ -138,9 +138,7 @@
 
 .cars__content {
   background-color: var(--background-color);
-  border-left: 2px solid var(--decoration-line);
-  border-top: 2px solid var(--decoration-line);
-  border-right: 2px solid var(--decoration-line);
+  border: 2px solid var(--decoration-line);
 }
 
 .cars__title {
@@ -151,7 +149,6 @@
   background-color: var(--background-color);
   padding: 3px 24px 3px 10px;
   color: var(--text);
-  border-bottom: 2px solid var(--decoration-line);
 }
 
 .cars__text {
@@ -172,7 +169,8 @@
   position: relative;
   display: inline-block;
   z-index: 0;
-  border-bottom: 1px solid var(--decoration-line);
+  border-top: 2px solid var(--decoration-line);
+  border-bottom: 2px solid var(--decoration-line);
 }
 
 .cars__picture img {
@@ -209,19 +207,6 @@
   padding-bottom: 15px;
   padding-right: 25px;
   background-color: var(--background-color);
-  border-bottom: 2px solid var(--decoration-line);
-  border-left: 2px solid var(--decoration-line);
-  border-right: 2px solid var(--decoration-line);
-}
-
-.cars__animation {
-  display: flex;
-  justify-content: right;
-  padding-top: 25px;
-  padding-bottom: 15px;
-  padding-right: 25px;
-  background-color: var(--background-color);
-  border-bottom: 2px solid var(--decoration-line);
 }
 
 .like-icon {
@@ -293,9 +278,7 @@
 
 .cars__below {
   background-color: var(--background-color);
-  border-left: 2px solid var(--decoration-line);
-  border-top: 2px solid var(--decoration-line);
-  border-right: 2px solid var(--decoration-line);
+  border: 2px solid var(--decoration-line);
   margin-top: 50px;
 }
 
