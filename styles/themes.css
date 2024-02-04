@@ -4,3 +4,92 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light {
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P-Regular', sans-serif;
+    --font-weight-text: 400;
+    --font-weight-title: 700;
+    --background-color: #FFFFFF;
+    --text-header-logo: #000000;
+    --text-title: #000000;
+    --text: #000000;
+    --background-container: #ffffff;
+    --header-width: clamp(23.438rem, 16.2859rem + 30.5157vw, 43.75rem);
+    --background-image: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+                        repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+                        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --decoration-line: #000000;
+    --button-text: #ffffff;
+    --accent-color: #ffffff;
+    --heartSparks:#F00000;
+    --heartContour: #000000;
+  }
+
+@media (prefers-color-scheme: light) {
+
+    :root {
+        --main-font: 'Inter-Variable', sans-serif;
+        --accent-font: 'PressStart2P-Regular', sans-serif;
+        --font-weight-text: 400;
+        --font-weight-title: 700;
+        --background-color: #FFFFFF;
+        --text-header-logo: #000000;
+        --text-title: #000000;
+        --text: #000000;
+        --background-container: #ffffff;
+        --header-width: clamp(23.438rem, 16.2859rem + 30.5157vw, 43.75rem);
+        --background-image: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+                            repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+                            linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+        --decoration-line: #000000;
+        --button-text: #ffffff;
+        --accent-color: #ffffff;
+        --heartSparks:#F00000;
+        --heartContour: #000000;
+    }
+}        
+
+:root.theme-dark {
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P-Regular', sans-serif;
+    --font-weight-text: 465;
+    --font-weight-title: 785;
+    --background-color: #000000;
+    --text-header-logo: #00CC14;
+    --text-title: #00CC14;
+    --text: #00CC14;
+    --background-container: #000000;
+    --header-width: clamp(23.438rem, 16.2859rem + 30.5157vw, 43.75rem);
+    --background-image: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+                        repeating-linear-gradient(to bottom,#000,#000 2px, transparent 2px, transparent 4px),
+                        linear-gradient(to bottom, #007f0c, #004306);
+    --decoration-line: #00CC14;
+    --button-text: #00CC14;
+    --accent-color: #000000;
+    --heartSparks:#F00000;
+    --heartContour: #00CC14;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    :root {
+        --main-font: 'Inter-Variable', sans-serif;
+        --accent-font: 'PressStart2P-Regular', sans-serif;
+        --font-weight-text: 465;
+        --font-weight-title: 785;
+        --background-color: #000000;
+        --text-header-logo: #00CC14;
+        --text-title: #00CC14;
+        --text: #00CC14;
+        --background-container: #000000;
+        --header-width: clamp(23.438rem, 16.2859rem + 30.5157vw, 43.75rem);
+        --background-image: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+                            repeating-linear-gradient(to bottom,#000,#000 2px, transparent 2px, transparent 4px),
+                            linear-gradient(to bottom, #007f0c, #004306);
+        --decoration-line: #00CC14;
+        --button-text: #00CC14;
+        --accent-color: #000000;
+        --heartSparks:#F00000;
+        --heartContour: #00CC14;
+    }
+}  
