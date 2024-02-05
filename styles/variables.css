@@ -1,9 +1,10 @@
 :root {
-    --main-font: 'Inter-Variable', sans-serif;
-    --accent-font: 'PressStart2P-Regular', sans-serif;
+    --main-font: 'Inter', sans-serif;
+    --accent-font: 'PressStart2P', fantasy;
     --font-weight-text: 400;
     --font-weight-title: 700;
     --background-color: #FFFFFF;
+    --page-color: #000000;
     --text-header-logo: #000000;
     --text-title: #000000;
     --text: #000000;
