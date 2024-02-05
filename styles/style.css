@@ -137,15 +137,15 @@
 }
 
 .cars__text {
-  max-inline-size: 646px; 
-  font-family: var(--main-font); 
+  max-inline-size: 646px;
+  font-family: var(--main-font);
   font-variation-settings:'wght' var(--font-weight-text);
-  font-size: 18px; 
-  line-height: 21px; 
+  font-size: 18px;
+  line-height: 21px;
   margin-top: 20px;
   margin-left: 25px;
   margin-right: 25px;
-  color: var(--text); 
+  color: var(--text);
 }
 
 .cars__text-near {
@@ -265,7 +265,7 @@
   color: var(--button-text);
   font-family: var(--accent-font);
   font-size: 14px;
-  font-weight: var(--font-weight-text);
+  font-variation-settings:'wght' var(--font-weight-text);
   line-height: 90%;
   mix-blend-mode: difference;
 }
@@ -313,7 +313,7 @@
   font-family: var(--accent-font);
   font-size: 14px;
   line-height: 90%;
-  color: var(--accent-color);
+  color: var(--button-text);
   mix-blend-mode: difference;
   width: 21px;
   height: 21px;
@@ -341,7 +341,7 @@
 
 .dialog__floppy {
   position: relative;
-  color: var(--accent-color);
+  color: var(--button-text);
   mix-blend-mode: difference;
   width: 39px;
   height: 39px;
@@ -354,6 +354,7 @@
   text-transform: uppercase;
   color: var(--decoration-line);
   font-family: var(--accent-font);
+  font-variation-settings:'wght' var(--font-weight-title);
 }
 
 .dialog__button {
