@@ -18,7 +18,7 @@
   min-block-size: 100dvb;
   background-color: var(--background-color);
   background-attachment: fixed;
-  font-variation-settings:'wgth' var(--font-weight-text);
+  font-variation-settings: 'wgth' var(--font-weight-text);
   background-image: var(--background-image);
   background-position: center center;
   background-size: cover;
@@ -128,7 +128,7 @@
 
 .cars__title {
   font-family: var(--main-font);
-  font-variation-settings:'wght' var(--font-weight-title);
+  font-variation-settings: 'wght' var(--font-weight-title);
   font-size: 18px;
   line-height: 22px;
   background-color: var(--background-color);
@@ -139,7 +139,7 @@
 .cars__text {
   max-inline-size: 646px;
   font-family: var(--main-font);
-  font-variation-settings:'wght' var(--font-weight-text);
+  font-variation-settings: 'wght' var(--font-weight-text);
   font-size: 18px;
   line-height: 21px;
   margin-top: 20px;
@@ -265,7 +265,7 @@
   color: var(--button-text);
   font-family: var(--accent-font);
   font-size: 14px;
-  font-variation-settings:'wght' var(--font-weight-text);
+  font-variation-settings: 'wght' var(--font-weight-text);
   line-height: 90%;
   mix-blend-mode: difference;
 }
@@ -354,7 +354,7 @@
   text-transform: uppercase;
   color: var(--decoration-line);
   font-family: var(--accent-font);
-  font-variation-settings:'wght' var(--font-weight-title);
+  font-variation-settings: 'wght' var(--font-weight-title);
 }
 
 .dialog__button {
