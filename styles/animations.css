@@ -13,10 +13,8 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
   .like-icon.is-liked .heart {
-    animation: heart 0.3s ease-in 0.1s alternate;
+    animation: heart 0.3s ease-in 0.1s 1 alternate;
     transform-origin: center;
-    animation-iteration-count: 1;
-    animation-direction: alternate-reverse;
   }
   
   .like-icon.is-liked .contour {
@@ -26,7 +24,7 @@
 
   .like-icon .contour {
     fill: var(--heartContour);
-    transition: fill 0.3s linear 0.06s;
+    transition: fill 0.1s linear;
   }
 
   .like-icon .main-body {
@@ -72,11 +70,10 @@
   .like-icon.is-liked .sparks {
     animation: sparks 0.3s ease-in 0.3s alternate;
     animation-iteration-count: 1;
-    animation-direction: alternate-reverse;
   }
 
   .like-icon .sparks {
-    transition: fill 0.3s linear;
+    opacity: 0;
   }
   
   @keyframes sparks {
@@ -98,13 +95,6 @@
   
     to {
       transform: scale(1.5);
-    }
-  }
-
-  @keyframes moving {
-    
-    to {
-      transform: translateX(4px);
     }
   }
 
